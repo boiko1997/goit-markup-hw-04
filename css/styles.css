@@ -153,6 +153,8 @@ body {
 .hero {
   height: 600px;
   background-color: #2e2f42;
+  background-image: url('../images/people-office.jpg');
+  background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -336,6 +338,42 @@ body {
 .team-profession {
   text-align: center;
 }
+
+/* CUSTOMERS */
+
+
+.customers {
+  width: 1128px;
+  height: 200px;
+  margin-bottom: 120px;
+}
+
+.item-customers {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  
+  
+}
+
+.customers-title {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    margin-bottom: 72px;
+    margin-top: 120px;
+}
+
+.icon-customers {
+  padding: 16px 32px 16px 32px;
+}
+
 
 /* FOOTER */
 
