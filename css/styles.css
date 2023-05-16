@@ -71,7 +71,7 @@ body {
 
   display: flex;
   align-items: center;
-  height: 72px;
+  
   
 }
 
@@ -91,6 +91,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  padding: 24px 0px;
 }
 
 .main-logo-descr {
@@ -114,7 +115,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  padding: 24px 0 24px;
+  padding: 24px 0px;
 }
 
 .menu-link:hover,
@@ -141,13 +142,14 @@ body {
 }
 
 .add-list {
-  margin-right: 40px;
+  
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  padding: 24px 0px;
 }
 
 .add-list:hover,
@@ -159,7 +161,7 @@ body {
 
 .hero {
   max-width: 1440px;
-  height: 600px;
+  margin: 0 auto;
   background-color: #2e2f42;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office.jpg');
   background-size: cover;
@@ -179,7 +181,7 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -214,6 +216,11 @@ body {
 }
 
 /* FEATURES */
+
+.features {
+  padding-top: 120px;
+  padding-bottom: 0px;
+}
 
 .features-item {
   display: flex;
@@ -260,7 +267,8 @@ body {
 /* WHAT ARE WE DOING */
 
 .our-work {
-  padding-bottom: 120px;
+  padding-top: 120px;
+  
 }
 
 .work-list {
@@ -291,7 +299,7 @@ body {
 
 .team {
   background-color: #f4f4fd;
-  padding: 120px 0 120px;
+  
 }
 
 .team-photo {
@@ -321,6 +329,7 @@ body {
   text-transform: capitalize;
   color: var(--navy-blue);
   margin-bottom: 72px;
+  
 }
 
 .team-name-list {
@@ -559,8 +568,6 @@ body {
   background: #f4f4fd;
   border-radius: 4px;
   color: #4d5ae5;
-  min-width: 116px;
-  height: 48px;
   padding: 12px 24px 12px;
   border: 1px solid var(--btn);
 }
